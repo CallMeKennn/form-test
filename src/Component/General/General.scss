@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    margin-top: 2rem;
+    width: 70%;
+
+    .form-container {
+        width: 60%;
+        background: #fff;
+        
+    }
+
+    .form-general {
+        padding: 1rem;
+
+        .title-name {
+            margin-top: 0.5rem;
+        }
+
+        input {
+            margin-top: 0.2rem;
+            padding: 0.5rem;
+            width: 90%;
+            border-radius: 5px;
+        }
+    }
+
+    .form-volume {
+        padding: 1rem;
+        margin-top: 0.5rem;
+
+        .option-number {
+            margin-top: 1.5rem;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .input-fields {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .input-field {
+            margin-right: 1rem;
+        }
+
+        input,
+        select {
+            padding: 0.4rem;
+            border-radius: 5px;
+        }
+
+        select {
+            margin-top: 1.3rem;
+        }
+    }
+
+    button {
+        padding: 0.7rem 1rem;
+        border-radius: 5px;
+        font-size: 80%;
+    }
+
+    .btn {
+        margin-right: 5px;
+        margin-top: 15px;
+    }
+
+
+    .preview-container{
+        width: 40%;
+        h2{
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .table{
+            margin-top: 1rem;
+            justify-content: center;
+            width: 100%;
+        }
+
+        tr th{
+           padding: 1rem 2rem;
+        }
+
+        td{
+            text-align: center;
+        }
+        
+    }
+}
+
+
